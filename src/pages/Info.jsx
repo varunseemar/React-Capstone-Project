@@ -99,7 +99,7 @@ function Info (){
         <div>
             <div className='userinfo' style={{display:"grid"}}>
                 <div className='userselectioninfo'>
-                    <img src="Images\image 15.png" alt="userimageinfo" style={{height:"190px", width:"85px",marginTop:"22px",marginLeft:"15px"}}></img>
+                    <img src="Images/image 15.png" alt="userimageinfo" style={{height:"190px", width:"85px",marginTop:"22px",marginLeft:"15px"}}></img>
                     <div className='usercontentinfo' style={{float:"right",marginRight:"40px",marginTop:"10px",marginLeft:"25px"}}>
                         {userData ? <>
                         <p style={{fontSize:"15px",marginBottom:"0px"}}>{userData.name}</p>
@@ -133,18 +133,18 @@ function Info (){
                         <p style={{display:"inline-grid",marginLeft:"85px"}}>{hours > 12 ? hours - 12 : hours }:{min < 10 ? "0" + min : min}{hours >= 12 ? "PM":"AM"}</p>
                     </div>
                     {weather ? <div className='weatherattributesinfo' style={{backgroundColor:"#101744",display:"flex",height:"75px"}}>
-                    <img style={{display:"inline-grid",marginLeft:"30px",marginTop:"10px",height:"70px"}} src="Images\rain.png" alt="weather"></img>
-                    <img style={{display:"inline-grid",marginLeft:"45px",height:"60px",marginTop:"20px"}} src="Images\Line.png" alt="line"></img>
+                    <img style={{display:"inline-grid",marginLeft:"30px",marginTop:"10px",height:"70px"}} src="Images/rain.png" alt="weather"></img>
+                    <img style={{display:"inline-grid",marginLeft:"45px",height:"60px",marginTop:"20px"}} src="Images/Line.png" alt="line"></img>
                     <p style={{display:"inline-grid",marginLeft:"40px",fontSize:"30px",color:"white",float:"top"}}>{weather.temperatureAvg}&deg;C</p>
-                    <img style={{display:"inline-grid",marginLeft:"45px",height:"60px",marginTop:"20px"}} src="Images\Line.png" alt="line"></img>
-                    <img style={{display:"inline-grid",marginLeft:"20px",height:"20px",marginTop:"20px"}} src="Images\wind.png" alt="wind"></img>
+                    <img style={{display:"inline-grid",marginLeft:"45px",height:"60px",marginTop:"20px"}} src="Images/Line.png" alt="line"></img>
+                    <img style={{display:"inline-grid",marginLeft:"20px",height:"20px",marginTop:"20px"}} src="Images/wind.png" alt="wind"></img>
                     <p style={{display:"inline-grid",color:"white",marginLeft:"5px",marginTop:"15px",fontSize:"12px"}}>{weather.windSpeedAvg}&nbsp;&nbsp;Km/h Wind</p>
                     </div>:"No Weather"}
                     {weather ? <div style={{display:"flex",flexDirection:"row",backgroundColor:"#101744",height:"40px",borderBottomLeftRadius:"20px",borderBottomRightRadius:"20px"}}>
                         <p style={{display:"inline-grid",color:"white",marginLeft:"30px",marginTop:"0px"}}>Heavy Rain</p>
-                        <img style={{display:"inline-grid",marginLeft:"90px",height:"20px",marginTop:"0px"}} src="Images\temp.png"></img>
+                        <img style={{display:"inline-grid",marginLeft:"90px",height:"20px",marginTop:"0px"}} src="Images/temp.png"></img>
                         <p style={{display:"inline-grid",color:"white",marginLeft:"5px",marginTop:"0px",fontSize:"13px"}}>{weather.pressureSurfaceLevelAvg}&nbsp;mbar&nbsp;<br></br>Pressure</p>
-                        <img style={{display:"inline-grid",height:"20px",marginLeft:"75px",marginTop:"0px"}} src="Images\drop.png"></img>
+                        <img style={{display:"inline-grid",height:"20px",marginLeft:"75px",marginTop:"0px"}} src="Images/drop.png"></img>
                         <p style={{display:"inline-grid",marginTop:"0px",color:"white",fontSize:"13px",marginLeft:"10px"}}>{weather.humidityAvg}%&nbsp;<br></br>Humidity</p>
                     </div>:"No weather"}
                 </div>
@@ -165,9 +165,9 @@ function Info (){
                             <p style={{display:"inline-grid"}}>Seconds</p>
                         </div>
                         <div style={{marginTop:"0px"}}>
-                            <img src="Images\Vector.png" onClick={()=>handleTimer(1,3600)} style={{display:"inline-grid",marginRight:"105px",marginLeft:"17px"}}></img>
-                            <img src="Images\Vector.png" onClick={()=>handleTimer(1,60)} style={{display:"inline-grid",marginRight:"115px"}}></img>
-                            <img src="Images\Vector.png" onClick={()=>handleTimer(1,1)} style={{display:"inline-grid",marginRight:"70px"}}></img>
+                            <img src="Images/Vector.png" onClick={()=>handleTimer(1,3600)} style={{display:"inline-grid",marginRight:"105px",marginLeft:"17px"}}></img>
+                            <img src="Images/Vector.png" onClick={()=>handleTimer(1,60)} style={{display:"inline-grid",marginRight:"115px"}}></img>
+                            <img src="Images/Vector.png" onClick={()=>handleTimer(1,1)} style={{display:"inline-grid",marginRight:"70px"}}></img>
                         </div>
                         <div className='remainingtimerinfo' style={{marginTop:"0px",marginBottom:"10px",maxHeight:"50px",display:"flex",alignItems:"center"}}>
                             <p style={{display:"inline-grid",marginLeft:"10px"}}>{remainingHour < 10 ? "0" + remainingHour : remainingHour}</p>
@@ -177,9 +177,9 @@ function Info (){
                             <p style={{display:"inline-grid",marginLeft:"43px"}}>{remainingSec < 10 ? "0" + remainingSec : remainingSec}</p>
                         </div>
                         <div style={{marginTop:"0px"}}>
-                            <img src="Images\Vectori.png" onClick={()=>handleTimer(0,3600)} style={{display:"inline-grid",marginRight:"105px",marginLeft:"17px"}}></img>
-                            <img src="Images\Vectori.png" onClick={()=>handleTimer(0,60)} style={{display:"inline-grid",marginRight:"115px"}}></img>
-                            <img src="Images\Vectori.png" onClick={()=>handleTimer(0,1)} style={{display:"inline-grid",marginRight:"70px"}}></img>
+                            <img src="Images/Vectori.png" onClick={()=>handleTimer(0,3600)} style={{display:"inline-grid",marginRight:"105px",marginLeft:"17px"}}></img>
+                            <img src="Images/Vectori.png" onClick={()=>handleTimer(0,60)} style={{display:"inline-grid",marginRight:"115px"}}></img>
+                            <img src="Images/Vectori.png" onClick={()=>handleTimer(0,1)} style={{display:"inline-grid",marginRight:"70px"}}></img>
                         </div>
                         <button className="starttimer" style={{backgroundColor:"#FF6A6A",fontFamily:"Roboto",fontSize:"20px",color:"white",width:"350px",borderRadius:"20px",marginTop:"5px"}}onClick={()=>setIsPlaying(true)}>Start</button>
                     </div>

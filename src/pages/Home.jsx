@@ -66,7 +66,7 @@ function Home() {
         <>
         <div className="Home" style={{display:"flex",backgroundColor:"black"}}>
             <div className="HomeImage">
-                <img src="../../public/Images/image13.png" alt="Homepageimage" style={{width:"47vw",height:"99.5vh"}}/>
+                <img src="Images/image13.png" alt="Homepageimage" style={{width:"47vw",height:"99.5vh"}}/>
                 <div className="Discover" >
                     Discover new things on Superapp
                 </div>
