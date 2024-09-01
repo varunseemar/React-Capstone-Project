@@ -1,0 +1,43 @@
+@font-face {
+    src: url(fonts\Roboto-Black.ttf);
+    font-family: Roboto;
+}
+
+html, body
+{
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+}
+
+.rightsideMovieselection{
+    width: 50vw; 
+}
+.leftsideMovieselection{
+    width: 50vw; 
+}
+.superappMovieselection{
+    display: flex;
+    color:#72DB73;
+    font-family: Single Day;
+    font-size: 60px;
+    margin-top: 5vh;
+}
+
+.chooseMovieselection{
+    color: white;
+    font-family: Roboto;
+    margin-top: 5vh;
+    font-size: 55px;
+    font-weight: 500;
+}
+.warningMovieselection{
+    color:red;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+}
+.SelectedmoviesMovieselection{
+    margin-top: 50px;
+    
+}

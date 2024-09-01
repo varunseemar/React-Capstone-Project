@@ -1,0 +1,38 @@
+@font-face {
+    src: url(fonts\Roboto-Black.ttf);
+    font-family: Roboto;
+}
+
+html, body
+{
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+}
+
+.superappBrowse{
+    display: flex;
+    color:#72DB73;
+    font-family: Single Day;
+    font-size: 40px;
+    margin-top: 4vh;
+    margin-left: 4vw;
+}
+
+.headingBrowse{
+    font-family: Roboto;
+    font-size: 25px;
+    margin-top: 1vh;
+    margin-left: 6vw; 
+    color:white;
+}
+
+.movieTitleBrowse{
+    color:#878787;
+    font-size: 25px;
+    margin-top: 3vh;
+    margin-left: 6vw;
+    font-family: Roboto;
+    margin-bottom: 3vh;
+}
+

@@ -1,0 +1,103 @@
+@font-face {
+    src: url(fonts\Roboto-Black.ttf);
+    font-family: Roboto;
+}
+
+html, body
+{
+width: 100%;
+margin: 0px;
+}
+
+.HomeImage{
+    position: relative;
+}
+
+.Discover{
+    position: absolute;
+    top: 75vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: left;
+    font-size: 48px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.superapp{
+    display: flex;
+    color:#72DB73;
+    font-family: Single Day;
+    font-size: 60px;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+.create{
+    display: flex;
+    color:white;
+    font-family: sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+form{
+    margin-top: 35px;
+    width: 51vw;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    justify-content: center;
+    
+    
+}
+
+.form input[type="text"]{
+    width:30vw;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto ;
+    background-color: #292929;
+    text-indent: 15px;
+}
+.form input[type="email"]{
+    width:30vw;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto ;
+    background-color: #292929;
+    text-indent: 15px;
+}
+.form input[type="tel"]{
+    width:30vw;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto ;
+    background-color: #292929;
+    text-indent: 15px;
+}
+.form input[type="checkbox"]{
+    margin-left: 158px;
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    
+}
+.form button{
+    width:31vw;
+    margin-left: auto;
+    margin-right: auto ;
+    height: 45px;
+    background-color: #72DB73;
+    color: white;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 500;
+    border-radius: 22px;
+    
+}
+
